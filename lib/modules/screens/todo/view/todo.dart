@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Todo extends StatelessWidget {
-  const Todo({super.key});
+class ViewTodo extends StatelessWidget {
+  const ViewTodo({super.key});
 
   @override
   Widget build(BuildContext context) {

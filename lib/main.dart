@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:todoapp_db/modules/screens/home/view/home.dart';
+import 'package:todoapp_db/modules/screens/todo/view/todo.dart';
+
+import 'modules/screens/create_todo/view/create_todo.dart';
 
 void main() {
   runApp(
@@ -11,6 +14,8 @@ void main() {
       ),
       routes: {
         '/': (context) => Home(),
+        'create': (context) => CrateTodo(),
+        'view': (context) => ViewTodo(),
       },
     ),
   );
